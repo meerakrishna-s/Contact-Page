@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-form</title>
+    <link href="style.css" rel="stylesheet">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <div class="logo">
+        
+                <a href="index.html" class="logo-text">CONTACT US</a>
+
+        </div>
+        </div>
+        <div class="inner">
+            <img  class="image"src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202504/punjab-announces-new-school-timings-from-april-1-for-state-schools-012047450-16x9_0.jpg?VersionId=vm_BrU8L12te6QOBSUGdd26fNo0owNcZ&size=690:388"> 
+            <div class="info">
+                <table class="data">
+                    
+                    <tr>
+                    
+                        <td class="location"><i class="fa fa-map-marker" ></i>  Our Location</td>
+                    </tr>
+                     <tr>
+                        
+                        <td>pattom P.O,Thiruvanathapuram</td>
+                    </tr>
+                     <tr>
+                        <td class="phone"><i class="fa fa-phone"></i>  Phone Number</td>
+                    </tr>
+                     <tr>
+                        <td>0471-2447395</td>
+                    </tr>
+                     <tr>
+                        <td class="address"><i class="fa fa-envelope"></i> Email Address</td>
+                    </tr>
+                     <tr>
+                        <td>pattomstmarys@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+
+
+            <div class="formm"> 
+
+            <form class="details">
+                <label>Name</label>
+                <br>
+                <input class="name" type="text" placeholder="Your Name"><br><br>
+                <label>Email</label>
+                <br>
+                <input class="email" type="email" placeholder="Your Email"><br><br>
+                <label>Phone</label>
+                <br>
+                <input class="number" type="number" placeholder="Your Phone"><br><br>
+                <label>Grade</label>
+                <br>
+                <select class="grade">
+                    <option>Select Grade</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <br><br>
+                <label>Message</label><br>
+                <input class="message" type="text" placeholder="Your Message"><br><br>
+                
+                <div id="btn">
+                    <button class="switch" onclick="buttonclick()"> Submit</button>
+                </div>
+            </form>
+
+            </div>
+            
+
+
+        </div>
+        <div class="footer">
+                <div >
+                <a href="https://maps.app.goo.gl/HnUawTtUMu2niDcy7"><img class="imagee" src="https://onefivenine.com/images/GoogleMapImages/8_5176_95.jpg"></a>
+                 <div class="map">Google Map</div>
+                  </div>
+                  <div class="fb">
+                <a href="https://www.facebook.com/share/1GJ8aPmZqr/"><img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAeFBMVEUYd/L///8ifPMbefIAbfEAcvLN3vyDrveVufjR4fz8/f+QtvgAcPEAbPERdfIAavHH2vtSkvTh7P23z/q90/re6v3W5PxFjPTw9v7o8f6ZvPhdmPV4qPZnnfWiwfmnxfk3hfNxo/aKsvc0hPNCivSvyvnC1vsAY/G1olI7AAAEL0lEQVR4nO3da3OqMBSFYVFQqxC8a71fquf//8OjvdpqDbL2jklnvV860xkHnwElhNBWqn+8yt/OPPoNqFd79BvQjsDQIzD0CAw9AkOPwNAjMPQIDD0CQ4/A0CMw9AgMPQJDj8DQIzD0CAw9AkOPwNAjMPQIDD0CQ4/A0CMw9AgMPQJDj8DQI9BFJknSY/Gx088kMXKL5R8LNObISqvdzXa67w8Onc5h0F81G4uX2vHXiYjygUCTZkm3PRi2oitNRvvG+KiEkY8CmjQfT0fXaGe16u11DhofAjRJNt5PLLr3npe7LAG29QCgSZNtr5juradFVn4vOgea1Cyvfupu7saX0kLXwCSd3qs7VQsFmG8KfvS+V49Lb9EpMKl0yvCiaFP+a8YlMJ7d/eF7qwWcKtwBTV7q03eqX/4IdQc02aCsL+oC53pXQBPXS/smwA50BTTxU2lftEyBLTsC5iW/Pl9bI6NRN8BsD/h6ObJpJ8B0DviiNnKEOgGaNeKLsEf9XQDju64dfgYM0045AJYbXn82R64GXQDNDvK1wKkZfWBe/gx/aoAdofpA04V80QycdlIHZraZpdtNMnD72sA7duCkvmrPF4vFZrs8fH7vrqCTYEUfGB+K6Ybt3WlaO3ktjeNktnxFjtGJUW1gtRCvPv45/WlMmq9XrWf0CNUGps0ix+Ysv7qfTGqQK8G3lIF5gUFMJ/71VC5wE0YXWGQUur+++6TSBRY4QvvQxZA9XWBsPQkOdfefMtAY6w7caf9dMF2g9Sw/Rc/j1lSB1o8gMqNbMFWgdRgDzZcVSxWYPVuAVf2/zKcJNKnFN4IHYvZUgbZr+ab+EaoLXFiA+EjTniYwaViAgut9fk0TaJtO64HTLYVSBVom7DvBA/u3gXsH3zGqQNt5Xn+cVlEGWu6ZYXdVCqYKtEz5NrBJ+WIRCEQggQIRCEQggQJJAU16me3e7jy78qKzRPxCQNOdNi9qW25MDNqXrzlvKyEUAha6i3RvfYmxqhSwrQAsvxL9LI+B2Bq1jzwGbkWupjwGyrw1f4FCMzb+AhcywwBvgdBC7bO8BcIrgN7zFggt1D7LV+BQam2Cr0CxKw1fgWL/tMxT4EHstoWnQHQZ7Fd+AuFlsF/5CRRcfeEnUHD9k5dAydUXXgLBZ0G+5SOwJbk4wUcg+izIt4SAyXz0dFHd9sx87/I1x0aiy2ekJn6T+LJ/tod65vmVV8Wx6OqZR07dO5m7JxCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhCIQAIFIhDIE2BNrbQetW4VNRQ3/lH1P1bKTACx20YqAAAAAElFTkSuQmCC"></a>
+                 <div class="social-media">Social Media</div>
+                  </div>
+                   <p>St.Mary's HSS Pattom<br>Kesavadasapuram Rd,Kailash Nagar<br>pattom, Thiruvanathapuram,Kerala<br>695004</p>
+                  </div>
+                  </div>
+        </div>
+    </div>
+</body>
+</html>

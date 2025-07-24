@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(66, 66, 149);
+}
+.inner{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
+
+}
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.logo-text{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+}
+.image{
+    width: 100%;
+    height: 30%;
+}
+.details{
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.name{
+    width: 40%;
+    height: 30px;
+    border-radius:5px ;
+}
+.email{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
+}
+.number{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
+}
+.grade{
+     width: 41%;
+    height: 34px;
+    border-radius:5px ;
+}
+.message{
+     width: 40%;
+    height: 80px;
+    padding-bottom: 100px;
+    border-radius:5px ;
+}
+.switch{
+    width: 15%;
+    height:35px ;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.switch:hover{
+    background-color: green;
+}
+.formm{
+    padding-top: 40px;
+    width: 1500px;
+    margin-left: 280px;
+}
+.info{
+    width:600px ;
+    height: 0px;
+    margin-left: 250px;
+}
+.location{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+}
+.phone{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
+}
+.address{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
+}  
+.data{
+   font-size: larger;
+    height: 300px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(66, 66, 149);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.imagee{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.map{
+    margin-left: 200px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.fb{
+    text-align: center;
+}
+.fb img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.social-media{
+    font-size: 20px;
+    color: antiquewhite;
+}
+p{
+    font-weight: 10px;
+    font-size: 33px;
+    color: antiquewhite;
+    margin-left: 130px;
+}
