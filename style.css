@@ -1,162 +1,143 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-
-/* ---------------- Header ---------------- */
-.header {
-  width: 100%;
-  background-color: rgb(66, 66, 149);
-  padding: 30px 40px; /* increased height */
-  box-sizing: border-box;
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(66, 66, 149);
 }
+.inner{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
 
-.logo {
-  padding: 0;
 }
-
-.logo-text {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
-  text-align: left;
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 200px;
 }
-
-/* ---------------- Image ---------------- */
-.image {
-  width: 100%;
-  object-fit: cover;
+.logo-text{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
 }
-
-/* ✅ Limit image height only on desktop */
-@media screen and (min-width: 768px) {
-  .image {
-    height: 350px;
-  }
+.image{
+    width: 100%;
+    height: 30%;
 }
-
-/* ---------------- Main Inner Section ---------------- */
-.inner {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 20px;
-  background-color: white;
-  box-sizing: border-box;
+.details{
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 20px;
 }
-
-/* ---------------- Info (left side) ---------------- */
-.info {
-  flex: 1;
-  min-width: 280px;
-  max-width: 500px;
+.name{
+    width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-.location,
-.phone,
-.address {
-  font-weight: bold;
-  font-size: 19px;
-  color: blue;
-  padding-top: 15px;
+.email{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-.data {
-  font-size: larger;
+.number{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-/* ---------------- Form Section ---------------- */
-.formm {
-  flex: 1;
-  min-width: 280px;
-  max-width: 500px;
+.grade{
+     width: 41%;
+    height: 34px;
+    border-radius:5px ;
 }
-
-.details {
-  font-weight: bold;
-  font-size: 18px;
+.message{
+     width: 40%;
+    height: 80px;
+    padding-bottom: 100px;
+    border-radius:5px ;
 }
-
-input,
-select {
-  width: 100%;
-  height: 35px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  font-size: 16px;
-  padding: 5px 10px;
-  box-sizing: border-box;
+.switch{
+    width: 15%;
+    height:35px ;
+    margin-left: 100px;
+    border-radius: 5px;
 }
-
-.message {
-  height: 100px;
+.switch:hover{
+    background-color: green;
 }
-
-#btn {
-  text-align: center;
+.formm{
+    padding-top: 40px;
+    width: 1500px;
+    margin-left: 280px;
 }
-
-.switch {
-  width: 120px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: rgb(66, 66, 149);
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
+.info{
+    width:600px ;
+    height: 0px;
+    margin-left: 250px;
 }
-
-.switch:hover {
-  background-color: green;
+.location{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
 }
-
-/* ---------------- Footer ---------------- */
-.footer {
-  width: 100%;
-  background-color: rgb(66, 66, 149);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 40px 20px;
-  color: antiquewhite;
-  box-sizing: border-box;
+.phone{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
 }
-
-.imagee {
-  width: 250px;
-  border-radius: 8px;
-  cursor: pointer;
+.address{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
+}  
+.data{
+   font-size: larger;
+    height: 300px;
 }
-
-.map,
-.social-media {
-  font-size: 18px;
-  margin-top: 10px;
-  color: antiquewhite;
-  text-align: center;
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(66, 66, 149);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
 }
-
-.fb img {
-  width: 120px;
-  border-radius: 8px;
-  cursor: pointer;
+.imagee{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 100px;
+    cursor: pointer;
+    
 }
-
-.fb {
-  text-align: center;
+.map{
+    margin-left: 200px;
+    font-size: 20px;
+    color: antiquewhite;
 }
-
-p {
-  font-size: 18px;
-  color: antiquewhite;
-  text-align: center;
-  margin: 20px auto 0;
-  max-width: 90%;
+.fb{
+    text-align: center;
+}
+.fb img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.social-media{
+    font-size: 20px;
+    color: antiquewhite;
+}
+p{
+    font-weight: 10px;
+    font-size: 33px;
+    color: antiquewhite;
+    margin-left: 130px;
 }
