@@ -146,15 +146,6 @@ p{
     margin-left: 130px;
 }
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-}
-img, iframe {
-  max-width: 100%;
-  height: auto;
-}
-@media screen and (max-width: 768px) {
   .logo {
     padding-left: 0;
     text-align: center;
