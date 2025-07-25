@@ -141,3 +141,36 @@ p{
     color: antiquewhite;
     margin-left: 130px;
 }
+@media screen and (max-width: 768px) {
+  .logo {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .details {
+    padding: 0 10px;
+  }
+  
+  .formm {
+    padding: 0 10px;
+  }
+  
+  .info {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagee {
+    margin-bottom: 20px;
+  }
+  
+  .map {
+    margin-bottom: 20px;
+  }
+}
