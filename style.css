@@ -28,7 +28,6 @@ body {
 .image {
   width: 100%;
   object-fit: cover;
-  display: block;
 }
 
 /* ✅ Limit image height only on desktop */
