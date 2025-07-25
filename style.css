@@ -144,7 +144,7 @@ p{
 @media screen and (max-width: 768px) {
   .logo {
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
   .details {
     margin-left: 0;
@@ -164,6 +164,7 @@ p{
   }
   .imagee {
     margin-left: 0;
+      display:block;
   }
   .map {
     margin-left: 0;
