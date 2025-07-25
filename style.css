@@ -150,21 +150,33 @@ p{
     margin-left: 0;
     padding: 0 20px;
   }
+     .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
   .formm {
-    padding-top: 0;
-    margin-left: 0;
+    padding: 10px;
   }
-  .info {
-    padding: 0;
-  }
+  
   .footer {
     flex-direction: column;
     align-items: center;
   }
+  
+  .map {
+    margin: 20px 0;
+  }
+  
+  .fb {
+    margin: 20px 0;
+  }
   .imagee {
     margin-left: 0;
   }
-  .map {
-    margin-left: 0;
+  .social-media {
+    text-align: center;
+    margin: 20px 0;
   }
 }
