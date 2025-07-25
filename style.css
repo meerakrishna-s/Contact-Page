@@ -1,134 +1,146 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-
-.header {
-  width: 100%;
-  height: 70px;
-  background-color: rgb(66, 66, 149);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(66, 66, 149);
 }
+.inner{
+    width: 100%;
+    height: 1000px;
+    background-color:white;
 
-.logo {
-  width: 50%;
-  padding-left: 20px;
 }
-
-.logo-text {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 24px;
-  color: white;
+.logo{
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 200px;
 }
-
-.inner {
-  width: 100%;
-  background-color: white;
-  padding: 20px;
-  box-sizing: border-box;
+.logo-text{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
 }
-
-.image {
-  width: 100%;
-  height: auto;
+.image{
+    width: 100%;
+    height: 30%;
 }
-
-.details {
-  font-weight: bold;
-  font-size: 18px;
-  margin-top: 20px;
-  padding: 0 20px;
+.details{
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 20px;
 }
-
-.name, .email, .number, .grade, .message {
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  padding: 10px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
+.name{
+    width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-.message {
-  height: 100px;
+.email{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-.switch {
-  width: 100%;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
+.number{
+     width: 40%;
+    height: 30px;
+    border-radius:5px ;
 }
-
-.switch:hover {
-  background-color: green;
+.grade{
+     width: 41%;
+    height: 34px;
+    border-radius:5px ;
 }
-
-.formm {
-  padding-top: 20px;
-  padding: 0 20px;
+.message{
+     width: 40%;
+    height: 80px;
+    padding-bottom: 100px;
+    border-radius:5px ;
 }
-
-.info {
-  padding: 20px;
+.switch{
+    width: 15%;
+    height:35px ;
+    margin-left: 100px;
+    border-radius: 5px;
 }
-
-.location, .phone, .address {
-  font-weight: bold;
-  font-size: 18px;
-  color: blue;
-  margin-bottom: 10px;
+.switch:hover{
+    background-color: green;
 }
-
-.footer {
-  width: 100%;
-  background-color: rgb(66, 66, 149);
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.formm{
+    padding-top: 40px;
+    width: 1500px;
+    margin-left: 280px;
 }
-
-.imagee {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-bottom: 20px;
+.info{
+    width:600px ;
+    height: 0px;
+    margin-left: 250px;
 }
-
-.map {
-  font-size: 18px;
-  color: antiquewhite;
-  margin-bottom: 20px;
+.location{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
 }
-
-.fb img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  cursor: pointer;
+.phone{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
 }
-
-.social-media {
-  font-size: 18px;
-  color: antiquewhite;
+.address{
+    font-weight: bold;
+    font-size: 19px;
+    color: blue;
+    padding-top:15px ;
+}  
+.data{
+   font-size: larger;
+    height: 300px;
 }
-
-p {
-  font-size: 24px;
-  color: antiquewhite;
-  text-align: center;
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(66, 66, 149);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
 }
-
+.imagee{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+.map{
+    margin-left: 200px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.fb{
+    text-align: center;
+}
+.fb img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.social-media{
+    font-size: 20px;
+    color: antiquewhite;
+}
+p{
+    font-weight: 10px;
+    font-size: 33px;
+    color: antiquewhite;
+    margin-left: 130px;
+}
 @media screen and (max-width: 768px) {
   .logo {
     padding-left: 0;
