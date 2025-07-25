@@ -143,40 +143,76 @@ p{
 }
 @media screen and (max-width: 768px) {
   .logo {
+    width: 100%;
     padding-left: 0;
     text-align: center;
   }
+
+  .logo-text {
+    font-size: 24px;
+  }
+
   .details {
     margin-left: 0;
-    padding: 0 20px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 18px;
   }
-     .info {
-    flex-direction: column;
-    align-items: center;
+
+  .formm {
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .name,
+  .email,
+  .number,
+  .grade,
+  .message,
+  .switch {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .switch {
+    margin-left: 0;
+  }
+
+  .info {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
     text-align: center;
   }
-  
-  .formm {
-    padding: 10px;
-  }
-  
+
   .footer {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: auto;
   }
-  
-  .map {
-    margin: 20px 0;
-  }
-  
-  .fb {
-    margin: 20px 0;
-  }
-  .imagee {
+
+  .imagee,
+  .fb img {
+    width: 90%;
     margin-left: 0;
   }
-  .social-media {
+
+  .map,
+  .social-media,
+  .location,
+  .phone,
+  .address,
+  p {
     text-align: center;
-    margin: 20px 0;
-  }
+    margin-left: 0;
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 22px;
+  }
 }
