@@ -78,10 +78,6 @@ body{
     height: 0px;
     margin-left: 250px;
 }
-.info,.formm{
-    flex:1;
-    min-width:300px;
-}
 .location{
     padding-top: 50px;
     font-weight: bold;
@@ -150,25 +146,26 @@ p{
     padding-left: 0;
     text-align: center;
   }
-  
   .details {
-    padding: 0 10px;
+    margin-left: 0;
+    padding: 0 20px;
   }
-  
   .formm {
-    padding: 0 10px;
+    padding-top: 0;
+    margin-left: 0;
+    padding: 0 20px;
   }
-  
+  .info {
+    padding: 0 20px;
+  }
   .footer {
     flex-direction: column;
     align-items: center;
   }
-  
   .imagee {
-    margin-bottom: 20px;
+    margin-left: 0;
   }
-  
   .map {
-    margin-bottom: 20px;
-  }
+    margin-left: 0;
+  }
 }
